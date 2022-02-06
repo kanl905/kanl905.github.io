@@ -1,0 +1,197 @@
+/*
+  Coding from Life – Sketch 1: fixed layout
+
+  For sketch 1 you'll be positioning elements relative to an element with a fixed
+  width and height. For this sketch you can position elements by using pixel values.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: #837567;
+  margin: 30px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Your CSS goes here */
+
+.table{
+  background-color: #c8baa9;
+  width: 660px;
+  height: 300px;
+  position: absolute;
+  left: 250px;
+  top: 400px;
+  transform: skew(60deg) rotate(-5deg) ;
+}
+
+.cylinder {
+  background-color: whitesmoke;
+  width: 55px;
+  height: 150px;
+  position: absolute;
+  left: 480px;
+  top: 330px;
+  z-index: 2;
+}
+
+.vasebase {
+  border-left: 28px solid transparent;
+  border-right: 28px solid transparent;
+  border-bottom: 50px solid whitesmoke;
+  position: absolute;
+  left: 478px;
+  top: 473px;
+  z-index: 2;
+    }
+
+.circle1{
+  width: 80px;
+  height: 80px;
+  background: #FD3F7C;
+  border-radius: 50%;
+  position: absolute;
+  left: 420px;
+  top: 250px;
+  z-index: 3;
+}
+
+.circle2{
+  width: 80px;
+  height: 80px;
+  background: #FD3F7C;
+  border-radius: 50%;
+  position: absolute;
+  left: 490px;
+  top: 270px;
+  z-index: 3;
+
+}
+
+.circle3{
+  width: 80px;
+  height: 80px;
+  background: #FD3F7C;
+  border-radius: 50%;
+  position: absolute;
+  left: 525px;
+  top: 205px;  
+}
+
+.circle4{
+  width: 80px;
+  height: 80px;
+  background: #FD3F7C;
+  border-radius: 50%;
+  position: absolute;
+  left: 474px;
+  top: 165px;   
+}
+
+.circle5{
+  width: 80px;
+  height: 80px;
+  background: #FD3F7C;
+  border-radius: 50%;
+  position: absolute;
+  left: 420px;
+  top: 190px;     
+}
+
+.flowercenter{
+  width: 75px;
+  height: 75px;
+  background: #FDE63F;
+  border-radius: 50%;
+  position: absolute;
+  left: 470px;
+  top: 220px; 
+  z-index: 4;      
+}
+
+.leftcandleholder{
+  background-color: #F2D26D;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  left: 325px;
+  top: 380px;
+  z-index: 3;
+}
+
+.anothercandle{
+  background-color: #F2D26D;
+  width: 20px;
+  height: 50px;
+  position: absolute;
+  left: 630px;
+  top: 345px;
+  z-index: 4;
+}
+
+.rightcandlestem{
+  background-color: #F2D26D;
+  width: 5px;
+  height: 130px;
+  position: absolute;
+  left: 638px;
+  top: 355px;
+  z-index: 4;
+}
+
+.leftcandlestem{
+  background-color: #F2D26D;
+  width: 5px;
+  height: 90px;
+  position: absolute;
+  left: 332px;
+  top: 425px;
+  z-index: 4;
+}
+
+.leftcandlebase{
+  width: 25px;
+  height: 15px;
+  background: #F2D26D;
+  border-radius: 100px / 50px;
+  position: absolute;
+  left: 323px;
+  top: 509px;
+  z-index: 4;
+}
+
+.rightcandlebase{
+  width: 25px;
+  height: 15px;
+  background: #F2D26D;
+  border-radius: 100px / 50px;
+  position: absolute;
+  left: 628px;
+  top: 470px;
+  z-index: 4;
+}
+
+.leftwax{
+  background-color: whitesmoke;
+  width: 16px;
+  height: 60px;
+  position: absolute;
+  left: 327px;
+  top: 320px;
+  z-index: 3;
+}
+
+.rightwax{
+  background-color: whitesmoke;
+  width: 16px;
+  height: 60px;
+  position: absolute;
+  left: 632px;
+  top: 288px;
+  z-index: 3;
+}

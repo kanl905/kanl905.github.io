@@ -1,0 +1,77 @@
+body {
+  background-color: whitesmoke;
+}
+p {
+  color: #1F09FC;
+  text-align: center;
+  font-style: italic;
+
+}
+.centerglasses {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+}
+
+.centerglasses:hover {
+  width: 500px;
+  height: auto;
+    }
+
+.centermask {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+  transition: all 2.5s ease;
+}
+
+.centermask:hover {
+  -webkit-transform: rotate(360deg) scale(2.5);
+  transform: rotate(-360deg) scale(2.5)translate(150px,10px);
+  cursor: pointer;
+}
+
+.centertop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+  transition: all 3s ease ;
+}
+
+.centertop:hover {
+  -webkit-transform: translate(-350px,10px)scale(2);
+  cursor: pointer;
+}
+
+.centerjeans {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9.5%;
+  transition: all 2s ease;
+}
+
+.centerjeans:hover {
+   -webkit-transform: rotate(360deg) scale(1.8);
+  transform: rotate(-360deg) scale(1.8)translate(180px,-40px);
+  cursor: pointer;
+}
+
+.centershoes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+  transition:  all 2.5s ease;
+}
+
+.centershoes:hover {
+  -webkit-transform: scale(3);
+  transform:  scale(3)translate(-130px,-40px);
+  cursor: pointer;
+}
+
+

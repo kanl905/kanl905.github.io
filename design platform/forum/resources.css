@@ -1,0 +1,88 @@
+body{
+	background: whitesmoke;
+	margin: 0% 0% 0% 0%;
+
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: #F7AED7;
+	background-color: #107226;
+	padding: 5px; padding-left: 9px; padding-right: 9px;
+	border-radius: 15px;
+	transform: translate(-2px);
+}
+.sidenav{
+	width: 8%;
+	background: #F7AED7;
+	padding: 3% 2% 100% 3%;
+	position: fixed;
+	Font-family: "Nanum Gothic Coding", monospace;
+	font-size: 1.4vw;
+	z-index: 1;
+	top: 0px;
+	line-height: 110%;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#forum{
+	height: 38vw;
+	position: fixed;
+	left: 58%;
+	top: 8%;
+	animation: anticlockwise 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#articles{
+	height: 38vw;
+	position: fixed;
+	left: 17%;
+	top: 8%;
+	animation: clockwise 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes clockwise {
+  0% {
+
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes anticlockwise {
+  0% {
+
+  }
+  100% {
+    transform: rotate(-1turn);
+  }
+}
+
+#logo{animation: clockwise 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;}
+
+@keyframes clockwise {
+  0% {}
+  100% {transform: rotate(1turn);}
+}
+
+	

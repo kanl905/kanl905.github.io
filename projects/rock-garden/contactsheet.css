@@ -1,0 +1,37 @@
+body{background: #66d0ed; margin-top: 4%; margin-left: 1.5%}
+
+.button{
+	font-family: atrament-web, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.5vw;
+	position: fixed;
+	background: #8cc63f;
+	top: 2%;
+	left: 2%;
+	color: #FFFFFF;
+	padding: 0.5% 0.9% 0.5% 0.9%;
+	border-radius: 15px;
+}
+
+a:visited {color: #FFFFFF;}
+
+img{
+	width: 9%;
+	padding: 0% 2% 0% 2%;
+	margin: 0.5% 0.5% 0.5% 0.5%;
+	background-color: #8cc63f;
+}
+
+@media only screen and (max-width: 600px) {
+  body{margin-top: 10%;}
+
+  img{
+  	width: 50%;
+  	margin: 0 25% 0 25%;
+  	}
+
+  .button{font-weight: 300; font-size: 13pt; padding: 1% 2% 1% 2%; 
+  	border-radius: 20px;
+}
+}

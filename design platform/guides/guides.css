@@ -1,0 +1,78 @@
+body{
+	background: whitesmoke;
+	margin: 0% 0% 0% 0%;
+
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: #F7AED7;
+	background-color: #107226;
+	padding: 5px; padding-left: 9px; padding-right: 9px;
+	border-radius: 15px;
+	transform: translate(-2px);
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sidenav{
+	width: 8%;
+	background: #F7AED7;
+	padding: 3% 2% 100% 3%;
+	position: fixed;
+	Font-family: "Nanum Gothic Coding", monospace;
+	font-size: 1.4vw;
+	z-index: 1;
+	top: 0px;
+	line-height: 110%;
+}
+
+.text{
+	margin: 0% 0% 0% 20%;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	width: 35%;
+	margin-left: 7.8%;
+	text-align: left;
+}
+
+h1{
+	font-family: rogue-sans-condensed, sans-serif;
+	text-align: center;
+	font-size: 6vw;
+	margin-left: 8%;
+	margin-top: 1.5%;
+	margin-bottom: 0%;
+	letter-spacing: 3px;
+}
+
+h2{
+	font-family: atrament-web,sans-serif;
+	font-weight: 400;
+	font-size: 3vw;
+	margin: 0% 0% 0% 8%;
+	text-align: center;
+	color: #107226;
+}
+
+#logo{animation: clockwise 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;}
+
+@keyframes clockwise {
+  0% {}
+  100% {transform: rotate(1turn);}
+}
+

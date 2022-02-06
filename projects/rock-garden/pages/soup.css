@@ -1,0 +1,84 @@
+body{
+	background: #66d0ed;
+	padding-top: 0%;
+	overflow-x: none;
+}
+
+.button1{
+	font-family: atrament-web, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.5vw;
+	position: fixed;
+	background: #8cc63f;
+	top: 2%;
+	left: 2%;
+	color: #FFFFFF;
+	padding: 0.5% 0.9% 0.5% 0.9%;
+	border-radius: 15px;
+}
+
+.button2{
+	font-family: atrament-web, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.5vw;
+	position: fixed;
+	background: #8cc63f;
+	top: 2%;
+	left: 93%;
+	color: #FFFFFF;
+	padding: 0.5% 0.9% 0.5% 0.9%;
+	border-radius: 15px;
+}
+
+a:visited {color: #FFFFFF;}
+
+h1{
+	font-family: atrament-web, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 4.5vw;
+	text-align: center;
+	margin: 1.8% 0% 0% 0%;
+	color: #497114;
+}
+	
+img{
+	width: 25%;
+	margin: 0% 36% 0% 36%;
+}
+
+.left{
+	width: 25%;
+	position: fixed;
+	left: 0%;
+	top: 37.5%;
+}
+
+.right{
+	width: 25%;
+	position: fixed;
+	left: 75%;
+	top: 37.5%;
+}
+
+@media only screen and (max-width: 600px) {
+  body{margin-top: 5%;}
+
+  h1 {
+  	font-size: 8vw;
+  }
+
+  img{
+  	margin: 15% 2% 2% 2%;
+  	width: 50%;
+  	margin: 0 25% 0 25%;
+  	}
+
+  .button1{font-weight: 300; font-size: 13pt; padding: 1% 2% 1% 2%; 
+  	border-radius: 20px;}
+
+  .button2{font-weight: 300; font-size: 13pt; padding: 1% 2% 1% 2%; 
+  	border-radius: 20px;}
+}

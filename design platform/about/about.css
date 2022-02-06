@@ -1,0 +1,107 @@
+body{
+	background: whitesmoke;
+	margin: 0% 0% 0% 0%;
+
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: #F7AED7;
+	background-color: #107226;
+	padding: 5px; padding-left: 9px; padding-right: 9px;
+	border-radius: 15px;
+	transform: translate(-2px);
+}
+.sidenav{
+	width: 8%;
+	background: #F7AED7;
+	padding: 3% 2% 100% 3%;
+	position: fixed;
+	Font-family: "Nanum Gothic Coding", monospace;
+	font-size: 1.4vw;
+	z-index: 1;
+	top: 0px;
+	line-height: 110%;
+}
+
+h1{
+	font-family: rogue-sans-condensed, sans-serif;
+	text-align: center;
+	font-size: 6vw;
+	margin-left: 8%;
+	margin-top: 1.5%;
+	margin-bottom: 0%;
+	letter-spacing: 3px;
+}
+
+h2{
+	font-family: atrament-web,sans-serif;
+	font-weight: 400;
+	font-size: 3vw;
+	margin: 0% 0% 2% 19%;
+	text-align: center;
+	color: #107226;
+	width: 100%;
+
+}
+
+h3{
+	font-family: atrament-web, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.8vw;
+	text-align: center;
+	margin: 0 0 2% 8%;
+}
+
+.nav{
+	text-align: center;margin-left: 8%;margin-bottom: 3%;
+	font-family: 'Nunito', sans-serif; 
+
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+#loupic{
+	width: 30%;
+	align-items: center;
+	margin-left: 8%;
+	margin-bottom: 0%;
+}
+
+.bio{
+	font-family: 'Nunito', sans-serif;
+	width: 30%;
+	margin-left: 8%;
+	text-align: justify;
+}
+
+.top{
+	position: fixed;
+	left: 92%;
+ 	top: 1.5%;
+	text-align: center;
+	font-family: 'Nunito', serif;
+}
+
+#logo{animation: clockwise 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;}
+
+@keyframes clockwise {
+  0% {}
+  100% {transform: rotate(1turn);}
+}

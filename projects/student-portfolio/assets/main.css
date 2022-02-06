@@ -1,0 +1,201 @@
+h1{
+	font-family: 'Ubuntu Mono', monospace;
+	text-align: center;
+	color: #0000FF;
+	animation: floating 3s ease-in-out infinite;
+	font-size: 2.2vw;
+	font-weight: 700;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }  }
+
+#p1:hover{filter: none;} #p2:hover{filter: none;}
+#codingfromlife:hover{filter: none}
+#p5-ex1:hover{filter: none} 
+#p5-ex2:hover{filter: none}
+#wiki:hover{filter: none}
+#javascript:hover{filter: none}
+#cssanimation:hover{filter: none}
+#hover:hover{filter: none}
+
+#p1-frame{
+	width: 25%;
+	position: fixed;
+	left: 2%;
+	top: 8.9%;
+	animation: floating 3s ease-in-out infinite;
+}
+
+#p1{
+	width: 25%;
+	position: fixed;
+	left: 2.04%;
+	top: 12.4%;
+	filter: grayscale(100%);
+	animation: floating 3s ease-in-out infinite;
+}
+
+#p2-frame{
+	width: 25%;
+	position: fixed;
+	left: 2.04%;
+	top: 34%;
+	animation: floating 3s ease-in-out infinite;
+}
+
+#p2{
+	width: 24.9%;
+	position: fixed;
+	left: 2.042%;
+	top: 37.55%;
+	filter: grayscale(100%);
+	animation: floating 3s ease-in-out infinite;
+}
+
+#codingfromlife-frame{
+	width: 25%;
+	position: fixed;
+	left: 2.04%;
+	top: 67.5%;
+	animation: floating 3s ease-in-out infinite;
+}
+
+#codingfromlife{
+	width: 24.9%;
+	position: fixed;
+	left: 2.042%;
+	top: 70.5%;
+	filter: grayscale(100%);
+	animation: floating 3s ease-in-out infinite;
+}
+
+#p5-frame{
+	width: 25%;
+	position: fixed;
+	left: 29%;
+	top: 8.9%;
+	animation: floating 3s ease-in-out infinite;
+}
+
+#p5-ex1{
+	width: 24.9%;
+	position: fixed;
+	left: 29.1%;
+	top:12.2%;
+	filter: grayscale(100%);
+	animation: floating 3s ease-in-out infinite;
+}
+
+#p5-ex2{
+	width: 24.9%;
+	position: fixed;
+	left: 29.1%;
+	top:37.2%;
+	filter: grayscale(100%);
+	animation: floating 3s ease-in-out infinite;
+}
+
+#wiki-frame{
+	width: 25%;
+	position: fixed;
+	left: 29%;
+	top: 68%;
+	animation: floating 3s ease-in-out infinite;
+}
+
+#wiki{
+	width: 24.9%;
+	position: fixed;
+	left: 29.05%;
+	top:71.1%;
+	filter: grayscale(100%);
+	animation: floating 3s ease-in-out infinite;
+}
+
+#javascript-frame{
+	width: 22%;
+	position: fixed;
+	left: 56%;
+	top:8.9%;
+	animation: floating 3s ease-in-out infinite;
+}
+
+#javascript{
+	width: 21.9%;
+	position: fixed;
+	left: 56.05%;
+	top: 12.7%;
+	filter: grayscale(100%);
+	animation: floating 3s ease-in-out infinite;
+}
+
+#cssanimation-frame{
+	width: 22%;
+	position: fixed;
+	left: 56%;
+	top: 52%;
+	animation: floating 3s ease-in-out infinite;
+}
+
+#cssanimation{
+	width: 21.9%;
+	position: fixed;
+	left: 56.05%;
+	top: 55.5%;
+	filter: grayscale(100%);
+	animation: floating 3s ease-in-out infinite;
+}
+
+#hover-frame{
+	height: 88.5%;
+	position: fixed;
+	left: 80%;
+	top:8.9%;
+	animation: floating 3s ease-in-out infinite;
+}
+
+#hover{
+	height: 84.3%;
+	position: fixed;
+	left: 80.1%;
+	top: 12.7%;
+	filter: grayscale(100%);
+	animation: floating 3s ease-in-out infinite;
+}
+
+#lamp{
+	height: 5vw;
+	position: fixed;
+	left: 95%;
+	top: 0%;
+}
+
+#lamp:hover{
+	cursor: pointer;
+}
+
+.darkmode{
+	background-color: #000000;
+}
+
+.changetext {
+	color: #ffffff;
+}
+
+.thumbnails{z-index: 0;}
+
+.warning{
+	position: fixed;
+	z-index: 1;
+	font-family: 'Ubuntu Mono', monospace;
+	color: #ffffff;
+	font-size: 1vw;
+	left: 38%;
+	top: 49%;
+	animation: floating 3s ease-in-out infinite;
+
+}
+

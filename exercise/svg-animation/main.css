@@ -1,0 +1,25 @@
+body{
+	background-color: whitesmoke;	
+}
+
+
+#spin-it {
+  height:46vw;
+  margin-left: 11%;
+}
+
+
+@keyframes spintype {
+  0% {
+
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+div.container{
+	animation: spintype 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}

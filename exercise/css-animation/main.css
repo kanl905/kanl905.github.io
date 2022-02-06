@@ -1,0 +1,53 @@
+body{
+	background-color: whitesmoke ;
+}
+
+#grass1{
+	height:40vw;
+}
+
+@keyframes floatinggrass {
+   20% { transform: rotate(15deg); } 
+   40% { transform: rotate(-40deg); } 
+   60% { transform: rotate(30deg); } 
+   80% { transform: rotate(-40deg); } 
+   100% { transform: rotate(0deg); } 
+}
+
+div.grass{
+	animation: floatinggrass 15s linear infinite;
+	bottom: calc(-150px - 40vh);
+}
+
+#sun{
+	height: 20vw;
+	left: 80%;
+}
+
+@keyframes sunny {
+   20% { transform: rotate(15deg); } 
+   40% { transform: rotate(60deg); } 
+   60% { transform: rotate(100deg); } 
+   80% { transform: rotate(200deg); } 
+   100% { transform: rotate(360deg); } 
+}
+
+div.sun{
+	animation: sunny 20s linear infinite;
+	bottom: calc(-150px - 40vh);
+}
+
+#water {
+	height: 30vw;
+	transform: translate(700px,-200px) ;
+}
+
+div.water{
+	animation: flow 8s  linear infinite;
+}
+
+@keyframes flow {
+   20% { transform: translate(0px, -10px); } 
+   100% { transform: translate(0px,-500px); } 
+}
+

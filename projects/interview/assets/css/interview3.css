@@ -72,7 +72,7 @@ h2{
 	font-family: Playfair Display;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 28px;
 	line-height: 40px;
 	margin-left: 15%;
 	margin-right: 24%;
@@ -88,11 +88,13 @@ h2{
 	font-family: Playfair Display;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 23px;
+	font-size: 22px;
 	line-height: 36px;
 	text-align: justify;
 
 	color: #79268E;
 }
 
+a:link {text-decoration: none;}
+a:visited {text-decoration: none; color: #79268E;}
 

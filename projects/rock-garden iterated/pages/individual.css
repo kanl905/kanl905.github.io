@@ -1,0 +1,93 @@
+a:link{text-decoration: none;}
+a:visited {color: #FFFFFF;}
+a:hover{cursor: url(cursor.cur), auto;}
+
+body{
+	background: #66d0ed;
+	padding-top: 0%;
+	overflow-x: none;
+	cursor: url(cursor.cur), auto;
+}
+
+.button1{
+	font-family: atrament-web, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.5vw;
+	position: fixed;
+	background: #8cc63f;
+	top: 2%;
+	left: 2%;
+	color: #FFFFFF;
+	padding: 0.5% 0.9% 0.5% 0.9%;
+	border-radius: 15px;
+	letter-spacing: 1.2px;
+	cursor: url(cursor.cur), auto;
+}
+
+.button2{
+	font-family: atrament-web, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.5vw;
+	position: fixed;
+	background: #8cc63f;
+	top: 2%;
+	left: 93%;
+	color: #FFFFFF;
+	padding: 0.5% 0.9% 0.5% 0.9%;
+	border-radius: 15px;
+	letter-spacing: 1.2px;
+	cursor: url(cursor.cur), auto;
+}
+
+#left{
+	width: 20vw;
+	position: absolute;
+	left: 8%;
+	top: 37.5%;
+	cursor: url(cursor.cur), auto;
+}
+
+#right{
+	width: 20vw;
+	position: absolute;
+	right: 0%;
+	top: 37.5%;
+	cursor: url(cursor.cur), auto;
+}
+
+
+h1{
+	font-family: atrament-web, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 5vw;
+	text-align: center;
+	margin: 1.8% 0% 0% 0%;
+	color: #497114;
+	cursor: url(cursor.cur), auto;
+}
+
+img{cursor: url(cursor.cur), auto;}
+
+#alien{width: 30%; position: absolute; left: 33%; bottom: 0%;}	
+#avocado{width: 25%; position: absolute; left: 36%; bottom: 15%;}	
+#bee{width: 30%; position: absolute; left: 33%; bottom: 5%;}	
+#burrito{width: 30%; position: absolute; left: 33%; bottom: 5%;}	
+#corona{width: 30%; position: absolute; left: 33%; bottom: 10%;}	
+#covid{width: 35%; position: absolute; left: 30%; bottom: 23%;}	
+#dino{width: 30%; position: absolute; left: 35%; bottom: 20%;}	
+#doctor{width: 30%; position: absolute; left: 35%; bottom: 8%;}	
+#dress{width: 30%; position: absolute; left: 38%; bottom: 3%;}	
+#dudewithsign{width: 30%; position: absolute; left: 33%; bottom: 13%;}	
+#homme{width: 40%; position: absolute; left: 33%; bottom: 20%;}	
+#jurassic{height: 80%; position: absolute; left: 35%; bottom: 5%;}	
+#pokemon{height: 80%; position: absolute; left: 35%; bottom: 0%;}	
+#pumpkin{width: 35%; position: absolute; left: 30%; bottom: 30%;}	
+#sherlock{width: 25%; position: absolute; left: 35%; bottom: 20%;}	
+#chickensoup{width: 25%; position: absolute; left: 35%; bottom: 10%;}	
+#spaceship{width: 26%; position: absolute; left: 35%; bottom: 20%;}	
+#sundae{width: 35%; position: absolute; left: 30%; bottom: 25%;}
+#taco{width: 35%; position: absolute; left: 30%; bottom: 30%;}
+#ups{width: 27%; position: absolute; left: 35%; bottom: 20%;}

@@ -121,4 +121,8 @@ p,ul{
 
 .stills{
 	width: 100%;
+	margin-bottom:  -2.1%;
 }
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none; color: #f7b5b0d;}
